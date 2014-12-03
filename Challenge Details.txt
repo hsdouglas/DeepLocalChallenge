@@ -1,0 +1,86 @@
+======Sunday, November 23, 7:00pm======
+
+Deep Local Challenge
+https://news.ycombinator.com/
+
+Goal: sort top 30 stories by criteria
+- number of comments
+- domain name (alphabetical)
+- length of headline (character count)
+
+Figure this all out in real time...
+
+"Sorting States for Hacker News"
+view the top 30 stories by
+- number of comments
+- domain name
+- longest headline
+
+======Sunday, November 23, 7:18pm======
+TODO:
+- read mechanize gem
+- create new ruby project
+- initialize git
+- push to remote github
+- install nokogiri gem & mechanize gem
+- new branch for code
+- write code for sorting... 
+	======Sunday, November 23, 7:20pm======
+	count comments (array.size bc no condition to be met)
+		For the top 30 stories, count the number of comments. Then compare these numbers. Reproduce an array of the stories, most number of comments to least.
+		@comments = Stories.comments.find(:all)
+		@numComments = { |a,b| a.comments.size <=> b.comments.size }
+		post.comments.size
+	bundle exec rails server
+- push to remote
+- new branch for code
+	
+	domain name (compare alphabetically)
+		For the top 30 stories, find the names of the domains. Resort them alphabetically.
+		@dnames = Domain.find(:all)
+		@dnames = { |a,b| a.name.downcase <=> b.name.downcase }
+	bundle exec rails server
+- push to remote
+- new branch for code
+
+	======Sunday, November 23, 7:45pm====== BREAK ======Sunday, November 23, 8:00pm======
+	headline (compare by length)
+		For the top 30 stories, get the headline length. Compare the headline lenths. Sort them accordingly.
+		arr = arr.sort_by {|x| x.length} ... headline, headline.length
+		arr.sort{|x, y| x.length <=> y.length}
+	bundle exec rails server
+- push to remote
+- new branch for code
+
+		You might get things if you use active record?
+
+- are they all working? has it been four hours?
+- write the readme file
+- one final push
+- clone it back to see if it's working
+- make the repository public
+- e-mail Kristin with the link to the repository on github
+
+======Sunday, November 23, 8:07pm======
+WEBSCRAPING
+======Sunday, November 23, 8:29pm======
+NOKOGIRI
+puts page.css("title").text allows you to select items by their css identities (which we can see in the webpage)
+links = page.css("a")
+puts links[0]["href"] # => http://www.google.com
+======Sunday, November 23, 8:44pm======
+MECHANIZE 
+
+
+Mmmkay. So. Mechanize. I will look into each element of CSS to follow it. 
+***** I would want to add a script to update the page to "newest" in order to get the actual top 30 stories. I could do that, right?
+
+======Sunday, November 23, 9:09pm======
+Try domain name first and then headline length... comments might be too hard.
+
+Taking a break
+Resuming
+======Sunday, November 23, 10:40pm======
+Where do I write the ruby script?
+
+Legit fixing ruby bugs until ======Sunday, November 23, 11:40pm======
