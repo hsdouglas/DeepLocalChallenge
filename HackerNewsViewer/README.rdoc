@@ -2,10 +2,10 @@
 
 I learned a lot during this project! My work with rails before has been mainly database focused, so using it for a different purpose was new and exciting.
 
-After fixing the initial set up fixes, I spent most of my time researching and playing around with Nokogiri functionality through irb. I took about 2 hours for this planning phase. I spent the next hour and a half coding, and the final half hour cleaning up my git, and making things legible.
+After fixing the initial set up issues, I spent most of my time researching and playing around with Nokogiri functionality through irb. I took about 2 hours for this planning phase. I spent the next hour and a half coding, and the final half hour cleaning up my git, and making things legible.
 
 I decided to utilize the Nokogiri gem instead of the Mechanize gem, because the sorting this challenge required did not need the click-through functionality provided by Mechanize.
 
-I have written three tasks for the three sorts (comments.rank, domains.rake, and headlines.rake) that are supposed to correspond to the sort controller. I ran out of time before securing a display the newly sorted data.
+I have written three tasks for the three sorts (comments.rank, domains.rake, and headlines.rake) that are supposed to correspond to the sort controller. I ran out of time before securing a display for the newly sorted data. Hopefully the code I've provided will be enough to evaluate, but I'd be happy to submit additional work if that helps.
 
-Thank you very much for this opportunity!
+Thank you very much for this opportunity!!
