@@ -1,28 +1,11 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I learned a lot during this project! My work with rails before has been mainly database focused, so using it for a different purpose was new and exciting.
 
-Things you may want to cover:
+After fixing the initial set up fixes, I spent most of my time researching and playing around with Nokogiri functionality through irb. I took about 2 hours for this planning phase. I spent the next hour and a half coding, and the final half hour cleaning up my git, and making things legible.
 
-* Ruby version
+I decided to utilize the Nokogiri gem instead of the Mechanize gem, because the sorting this challenge required did not need the click-through functionality provided by Mechanize.
 
-* System dependencies
+I have written three tasks for the three sorts (comments.rank, domains.rake, and headlines.rake) that are supposed to correspond to the sort controller. I ran out of time before securing a display the newly sorted data.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Thank you very much for this opportunity!
